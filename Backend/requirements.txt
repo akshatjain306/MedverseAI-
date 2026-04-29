@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+joblib
+scikit-learn
+xgboost
+transformers
+torch
+pillow
+numpy
+python-multipart
+pydantic
+pdfplumber
+pandas
+tensorflow
+opencv-python
+google-generativeai
+python-dotenv

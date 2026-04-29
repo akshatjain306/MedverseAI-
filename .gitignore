@@ -1,0 +1,84 @@
+# ===========================
+# Environment & Secrets
+# ===========================
+.env
+.env.*
+!.env.example
+.env.local
+.env.production
+.env.development
+
+# ===========================
+# ML Models (too large for Git)
+# ===========================
+Backend/models/*.h5
+Backend/models/*.pkl
+Backend/models/*.pth
+Backend/models/*.pt
+Backend/models/*.onnx
+Backend/models/*.bin
+Backend/models/*.safetensors
+*.h5
+*.pkl
+*.pth
+*.pt
+*.onnx
+*.safetensors
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+*.egg
+dist/
+
+# ===========================
+# Node / Frontend
+# ===========================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===========================
+# Database & Temp
+# ===========================
+*.db
+Backend/temp/
+Backend/temp.jpg
+Backend/scheduler.db
+
+# ===========================
+# Archives (don't push zips)
+# ===========================
+*.zip
+
+# ===========================
+# Editor / OS
+# ===========================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
