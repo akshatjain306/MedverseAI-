@@ -280,7 +280,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ## 👥 Contributors
 
 - **Akshat Jain** — [@akshatjain306](https://github.com/akshatjain306)
-- **Lokesh Kumar** — [@lokesh0802](https://github.com/lokesh0802)
+- **Samyak Jain** — [@samyakjain808](https://github.com/samyakjain808)
 
 ---
 
